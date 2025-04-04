@@ -1,44 +1,51 @@
-<!DOCTYPE html>
+<!-- Te agrego algunas sugerencias, está muy lindo tu trabajo te felicito
+ --><!DOCTYPE html>
+<!-- Acá podes agregar lang="es" como atributo de la tag html para setear bien el idioma
+ -->
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>agu*</title>
-        <link href="estilos.css" rel="stylesheet" type="text/css"/>
-        <style>
-            body {
-                background-image: url("img/fondo-pag.png");
-                background-size: cover; 
-                background-position: center; 
-                background-repeat: no-repeat; 
-                height: 100vh; 
-                margin: 0;
-            }
-        </style>
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <title>agu*</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css" />
+    <!--         estos estilos sumalos a la hoja de estilos, queda un poco desprolijo tenerlos en los dos lados. misma correccion para el resto de los html
+ -->
+    <style>
+      body {
+        background-image: url("img/fondo-pag.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        margin: 0;
+      }
+    </style>
+  </head>
 
-    <body>
-        <header id="cabecera">
-                        <h1>hola, yo soy agu*</h1>
-            <h2>esta es mi presentación como diseñadora</h2>
-        </header>
-        <nav class="botonera">
-            <ul>
-                <li><a href="index.html" class="activo">inicio</a></li>
-                <li><a href="proyectos.html">mis proyectos</a></li>
-                <li><a href="habilidades.html">mis habilidades</a></li>
-                <li><a href="influencias.html">mis influencias</a></li>
-                <li><a href="proceso.html">mi proceso</a></li>
-
-            </ul>
-        </nav>
-        <main>
-            <div>
-                <img src="img/agu.jpg" alt="agu" width="100%">
-            </div>
-        </main>
-        <footer id="pie">
-            <h5>©2001</h5>
-
-        </footer>
-    </body>
+  <body>
+    <header id="cabecera">
+      <h1>hola, yo soy agu*</h1>
+      <h2>esta es mi presentación como diseñadora</h2>
+    </header>
+    <nav class="botonera">
+      <ul>
+        <li><a href="index.html" class="activo">inicio</a></li>
+        <li><a href="proyectos.html">mis proyectos</a></li>
+        <li><a href="habilidades.html">mis habilidades</a></li>
+        <li><a href="influencias.html">mis influencias</a></li>
+        <li><a href="proceso.html">mi proceso</a></li>
+      </ul>
+    </nav>
+    <main>
+      <!--         este div salvo que esté ahí para estilar lo podés quitar (si se rompe el estilo cuando lo sacas dejalo, obvio). esta coreeción va para el resto de las páginas también
+ -->
+      <div>
+        <!--         Recordá que el atributo alt sirve para personas que usen tecnologías asistivas como puede ser un lector de pantalla, la palabra "agu" por si sola no le aporta mucha info, podrías poner por ejemplo "Ilustración de agu en estilo caricatura"
+ -->
+        <img src="img/agu.jpg" alt="agu" width="100%" />
+      </div>
+    </main>
+    <footer id="pie">
+      <h5>©2001</h5>
+    </footer>
+  </body>
 </html>
